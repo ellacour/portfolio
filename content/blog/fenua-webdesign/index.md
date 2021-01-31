@@ -1,8 +1,8 @@
 ---
 title: It's all blue
 date: "2019-05-06"
-tags: [blue,color]
-thumbnail: ./cody-davis-253928-unsplash.jpg
+tags: [blue, color]
+thumbnail: ./fenua-webdesign.jpg
 description: What if everything you knew was turned to blue?
 ---
 

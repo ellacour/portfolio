@@ -1,9 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../../content/assets/logo-mg.png";
 
 const Layout = props => {
-  const { title, children } = props
-  const [toggleNav, setToggleNav] = React.useState(false)
+  const { title, children } = props;
+  const [toggleNav, setToggleNav] = React.useState(false);
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
@@ -21,7 +22,8 @@ const Layout = props => {
             >
               <div className="hamburger-box">
                 <div className="hamburger-inner" />
-              </div> <div className="hamburger-text-menu-text hidden">Menu</div>
+              </div>{" "}
+              <div className="hamburger-text-menu-text hidden">Menu</div>
             </div>
           </a>
           <nav id="swup" className="site-head-left">
@@ -30,7 +32,7 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li> */}
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>A propos</Link>
               </li>
               <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
@@ -42,7 +44,8 @@ const Layout = props => {
           </nav>
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
-              {title}
+              {/* {title} */}
+              <img class="logo" src={logo} alt="mg webdesign logo"></img>
             </Link>
           </div>
           <div className="site-head-right">
@@ -100,7 +103,7 @@ const Layout = props => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

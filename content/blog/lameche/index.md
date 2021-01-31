@@ -1,7 +1,7 @@
 ---
-title: Clean lines
+title: La Mèche
 date: "2019-05-05"
-thumbnail: ./matthew-hamilton-351641-unsplash.jpg
+thumbnail: ./lameche-portfolio-ttle.jpg
 description: Let your hair down and paint the town red
 ---
 

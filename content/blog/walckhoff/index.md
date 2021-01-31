@@ -1,8 +1,9 @@
 ---
-title: Darkness
+title: Sacha Walckhoff
 date: "2019-05-08"
-thumbnail: ./bbbb.jpg
+thumbnail: ./sw-home-desktop.jpg
 description: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+logo: ./logo-la-maison-white.png
 ---
 
 ### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
