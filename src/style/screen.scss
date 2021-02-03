@@ -215,6 +215,7 @@ body {
   letter-spacing: 1px;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0px auto;
   @include light-mode {
     color: $color-body-font-light;
   }
